@@ -1,1 +1,3 @@
+useDynLib(awsMethods)
 exportMethods("extract","risk")
+export("setCores")
