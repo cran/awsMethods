@@ -2665,7 +2665,7 @@ fi
 
 
 
-ac_config_files="$ac_config_files R/onLoad.r src/Makevars"
+ac_config_files="$ac_config_files R/onAttach.r src/Makevars"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -3365,7 +3365,7 @@ cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
 for ac_config_target in $ac_config_targets
 do
   case $ac_config_target in
-    "R/onLoad.r") CONFIG_FILES="$CONFIG_FILES R/onLoad.r" ;;
+    "R/onAttach.r") CONFIG_FILES="$CONFIG_FILES R/onAttach.r" ;;
     "src/Makevars") CONFIG_FILES="$CONFIG_FILES src/Makevars" ;;
 
   *) as_fn_error "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
