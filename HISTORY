@@ -1,6 +1,0 @@
-2012-09-14 version 1.0-1 now also contains support functions for OpenMP
-           currently used in packages dti and aws
-
-2012-05-18 version 1.0-0 created to resolve problems with interactions between
-           method-definitions in different packages, dti, adimpro, aws now depend on 
-           package awsMethods

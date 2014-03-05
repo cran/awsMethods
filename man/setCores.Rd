@@ -35,6 +35,13 @@ Felix Anker (anker@wias-berlin.de)
    function setCores in package spMC version 0.2.2
    written by Luca Sartore <drwolf85@gmail.com>
 }
+\examples{
+## Report number of cores available and in use
+  setCores()
+## Set number of cores used in openMP to minimum of 
+## 12 and number of available cores
+  setCores(12)
+}
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
