@@ -1,4 +1,4 @@
-dfbcf5b752d348ffa6aa3d2337719250 *DESCRIPTION
+aa99d649eff548a3ffcf6a9fb62c657e *DESCRIPTION
 6420c7f85580dc7a2cee466289313687 *NAMESPACE
 a20f10a478d7b073eb68eb7380291717 *R/methods.r
 0f922493a6f24db76fcd0554e5ffa594 *R/onAttach.r.in
@@ -8,6 +8,6 @@ a20f10a478d7b073eb68eb7380291717 *R/methods.r
 69144e8e2446ddb824bf3998f05d64f6 *man/extract-methods.Rd
 f5a4daddc54522727c20dff62020bf4f *man/risk-methods.Rd
 b3fc03b80354542093711b6f5ef3b91d *man/setCores.Rd
-e347f1d0bdbdb9d03feefd0b6017a571 *src/Makevars.in
+1913424f15283d5077a7d72c204facd8 *src/Makevars.in
 ba3caf48933f8c648233c7cf67566f2f *src/cleanup
 3336b2808c5695b2a9a047da3c403ee8 *src/omp_funcs.c
