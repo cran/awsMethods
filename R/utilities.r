@@ -11,15 +11,15 @@ setCores <- function(n, reprt = TRUE) {
   if (!missing(n)) {
     if (is.numeric(n)) {
       n <- as.integer(ceiling(n))
-      n <- .C('setNumThreads', n = as.integer(n), PACKAGE = "awsMethods")$n
+      n <- .C(C_setNumThreads, n = as.integer(n))$n
     }
   }
   n <- 0L
   crTot <- 0L
-  n <- .C('getNumThreads', n = as.integer(n), PACKAGE = "awsMethods")$n
+  n <- .C(C_getNumThreads, n = as.integer(n))$n
   if (n <= 1L) {
   } else {
-    crTot <- .C('getNumCores', n = as.integer(crTot), PACKAGE = "awsMethods")$n
+    crTot <- .C(C_getNumCores, n = as.integer(crTot))$n
     if(reprt) {
     cat("  Total CPU cores available: ", crTot,"  CPU cores in use: ", n, ".\n", sep = "")
     }
