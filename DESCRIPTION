@@ -1,6 +1,6 @@
 Package: awsMethods
-Version: 1.1-0
-Date: 2018-02-01
+Version: 1.1-1
+Date: 2019-05-07
 Title: Class and Methods Definitions for Packages 'aws', 'adimpro',
         'fmri', 'dwi'
 Authors@R: c(person("Joerg","Polzehl",role=c("aut","cre"),email="joerg.polzehl@wias-berlin.de"),person("Felix","Anker",role=c("ctb")))
@@ -11,9 +11,9 @@ Copyright: This package is Copyright (C) 2012-18 Weierstrass Institute
         for Applied Analysis and Stochastics.
 URL: http://www.wias-berlin.de/software/imaging/
 NeedsCompilation: yes
-Packaged: 2018-02-01 10:50:12 UTC; polzehl
+Packaged: 2019-05-07 09:51:47 UTC; polzehl
 Author: Joerg Polzehl [aut, cre],
   Felix Anker [ctb]
 Maintainer: Joerg Polzehl <joerg.polzehl@wias-berlin.de>
 Repository: CRAN
-Date/Publication: 2018-02-01 16:14:57 UTC
+Date/Publication: 2019-05-08 15:40:03 UTC

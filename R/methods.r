@@ -4,5 +4,7 @@ setGeneric("risk", function(y, ...) standardGeneric("risk"))
 
 extract <- function(x, ...) cat("Data extraction not defined for this class:",class(x),"\n")
 
-setGeneric("extract", function(x, ...) standardGeneric("extract"))
-
+setGeneric("extract", function(x, ...){
+   if(isS4(x)) standardGeneric("extract") else UseMethod("extract")
+}
+)
